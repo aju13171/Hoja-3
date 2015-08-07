@@ -1,3 +1,7 @@
+
+/* Author yasminvale*/
+/*clase main para crear archivo de texto para leer y ordenar cone el merge sort*/
+
 public class mergeSTR{
   
     
