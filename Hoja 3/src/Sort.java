@@ -13,7 +13,7 @@ public class Sort {
     public static void main(String[] args) {
        
         //Cantidad de datos 
-        int numeros = 10;
+        int numeros = 3000;
         File archivo = new File("archivo.txt");
         Random random = new Random(); 
         Comparable[] cadena = new Comparable[numeros];
@@ -25,7 +25,7 @@ public class Sort {
             
             int num; //Random de numeros 
                 for (int i = 0; i < numeros; i++) {
-        	num = (int)(random.nextDouble() * 2000.0);
+        	num = (int)(random.nextDouble() * 3001.0);
         	System.out.println(num); 
                 //escritura en el archivo
                 bfescribir.write(Integer.toString(num));
